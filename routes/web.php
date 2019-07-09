@@ -11,8 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['middleware' => ['auth']], function () {
+    Route::resource('tasks', 'TasksController');
+    Route::post('getEvents', 'TasksController@getEvents');
+    
+    Route::get('preguntas', 'preguntasController@preguntas');
+    Route::get('form', function(){
+        return view('preguntas.preguntas');
+    });
 });
 
-Route::resource('tasks', 'TasksController');
+Auth::routes();
