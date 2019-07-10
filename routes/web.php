@@ -15,8 +15,8 @@
     Route::resource('tasks', 'TasksController');
     Route::post('getEvents', 'TasksController@getEvents');
     
-    Route::get('Preguntas', 'preguntasController@preguntas');
-    Route::get('Resultados', 'preguntasController@resultados');
+    Route::get('Preguntas', 'PreguntasController@preguntas');
+    Route::get('Resultados', 'PreguntasController@resultados');
 //});
 
 Auth::routes();
