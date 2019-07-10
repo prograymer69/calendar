@@ -1,0 +1,49 @@
+.content-header{
+    padding: 0 12px;
+}
+.content-header .head{
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.content-header .enlace{
+    display: inherit;
+    margin: 0 auto;
+}
+.content-header .enlace svg{
+    height: 50px;
+    width: 50px;
+    fill: #a2112f;
+}
+.content-header .textoH{
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 14px;
+    padding-left: 7px;
+}
+.iconMenu{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-header .iconMenu .fa{
+    color: #fff;
+    font-size: 2em;
+}
+.content-menu-lateral{
+    text-align: center;
+}
+.content-menu-lateral svg{
+    fill: #a2112f;
+    width: 100px;
+}
+.texto-menuLateral{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}

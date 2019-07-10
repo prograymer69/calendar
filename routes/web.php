@@ -15,10 +15,8 @@
     Route::resource('tasks', 'TasksController');
     Route::post('getEvents', 'TasksController@getEvents');
     
-    Route::get('preguntas', 'preguntasController@preguntas');
-    Route::get('form', function(){
-        return view('preguntas.preguntas');
-    });
+    Route::get('Preguntas', 'preguntasController@preguntas');
+    Route::get('Resultados', 'preguntasController@resultados');
 //});
 
 Auth::routes();

@@ -29,7 +29,7 @@
   Cuestionario
 </h3>
 
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false" data-wrap="false" >
   <div class="carousel-inner">
    
     @foreach($formularios as $formulario)
@@ -52,7 +52,9 @@
     <script>
         $(function(){
             $('.carousel').carousel({
-                interval: false
+                interval: false,
+                wrap: false,
+                touch: true
             })
         })
         

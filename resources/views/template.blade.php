@@ -50,7 +50,8 @@ License: You must have a valid license purchased only from themeforest(the above
 		<!--RTL version:<link href="{{ asset('assets/vendors/custom/fullcalendar/fullcalendar.bundle.rtl.css') }}" rel="stylesheet" type="text/css" />-->
 
 		<!--end::Page Vendors Styles -->
-        <link rel="shortcut icon" href="{{ asset('assets/demo/demo12/media/img/logo/favicon.ico') }}" />
+		<link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}" />
+		<link href="{{ asset('css/global.css') }}" rel="stylesheet" type="text/css"/>
         @yield('include_css')
     </head>
 
@@ -68,42 +69,17 @@ License: You must have a valid license purchased only from themeforest(the above
 					<div class="m-stack m-stack--ver m-stack--desktop">
 
 						<!-- BEGIN: Brand -->
-						<div class="m-stack__item m-brand  m-brand--skin-dark ">
-							<div class="m-stack m-stack--ver m-stack--general">
-								<div class="m-stack__item m-stack__item--middle m-brand__logo">
-									<a href="index.html" class="m-brand__logo-wrapper">
-										<img alt="" src="{{ asset('assets/demo/demo12/media/img/logo/logo.png') }}" />
-									</a>
-								</div>
-								<div class="m-stack__item m-stack__item--middle m-brand__tools">
-
-									<!-- BEGIN: Left Aside Minimize Toggle -->
-									<a href="javascript:;" id="m_aside_left_minimize_toggle" class="m-brand__icon m-brand__toggler m-brand__toggler--left m--visible-desktop-inline-block  ">
-										<span></span>
-									</a>
-
-									<!-- END -->
-
-									<!-- BEGIN: Responsive Aside Left Menu Toggler -->
-									<a href="javascript:;" id="m_aside_left_offcanvas_toggle" class="m-brand__icon m-brand__toggler m-brand__toggler--left m--visible-tablet-and-mobile-inline-block">
-										<span></span>
-									</a>
-
-									<!-- END -->
-
-									<!-- BEGIN: Responsive Header Menu Toggler -->
-									<a id="m_aside_header_menu_mobile_toggle" href="javascript:;" class="m-brand__icon m-brand__toggler m--visible-tablet-and-mobile-inline-block">
-										<span></span>
-									</a>
-
-									<!-- END -->
-
-									<!-- BEGIN: Topbar Toggler -->
-									<a id="m_aside_header_topbar_mobile_toggle" href="javascript:;" class="m-brand__icon m--visible-tablet-and-mobile-inline-block">
-										<i class="flaticon-more"></i>
-									</a>
-
-									<!-- BEGIN: Topbar Toggler -->
+						<div class="m-stack__item m-brand  m-brand--skin-dark content-header">
+							<div class="m-stack m-stack--ver m-stack--general head">
+								<a href="index.html" class="m-brand__logo-wrapper enlace">	
+									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+									<metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+									<g id="logo-huawei"><path d="M428.9,125.9c0,0-78.2-3.7-128.1,63.6c-49.9,67.4-12.4,170.3,11.2,223.3c23.7,53.1,148.5,261.3,153.1,265.9c4.6,4.6,10,2.7,10.3-1.5c0.3-4.1,14.3-302.6,3-376.2C467.2,227.5,434,134,428.9,125.9z"/><path d="M158.5,264.7c-8.9,1-73.1,67.9-78.9,133.2c-5.8,65.4,21,108.9,95.7,160.9c75.3,55.8,254.2,158.4,257.5,149.5c3.3-8.8-69.3-143.6-128.7-241.6C244.6,368.7,167.4,263.7,158.5,264.7z"/><path d="M182.6,867.7c54.1,25.3,138.5-31.5,161.8-48c21.7-17.3,61.8-49.2,61.8-49.2l-306.8,8.6C99.4,779.1,128.4,842.4,182.6,867.7z"/><path d="M190.3,608.7C135.4,580,22.4,514,18,515.3c-4.4,1.3-21.4,83.3,13.9,145.2c35.3,61.8,104.1,80.8,135.7,85.8c35.5,5.3,244.2,2.9,242.8-1.5C409.1,741,245.2,637.4,190.3,608.7z"/><path d="M699.2,189.6c-49.9-67.4-128.1-63.6-128.1-63.6c-5.1,8.1-38.4,101.6-49.6,175.2c-11.2,73.6,2.8,372.1,3.1,376.2c0.3,4.1,5.7,6.1,10.3,1.5c4.6-4.6,129.4-212.9,153.1-265.9C711.7,359.8,749.1,256.9,699.2,189.6z"/><path d="M982,515.3c-4.4-1.3-117.4,64.7-172.3,93.4C754.8,637.4,590.9,741,589.7,744.8c-1.4,4.4,207.3,6.7,242.8,1.5c31.6-5.1,100.4-24,135.7-85.8C1003.5,598.6,986.4,516.6,982,515.3z"/><path d="M655.6,819.7c23.3,16.5,107.7,73.3,161.8,48c54.1-25.3,83.2-88.6,83.2-88.6l-306.8-8.6C593.9,770.5,634,802.4,655.6,819.7z"/><path d="M920.4,398c-5.8-65.4-70-132.2-78.9-133.2c-8.9-1-86.2,104-145.6,202c-59.4,98-132,232.8-128.7,241.6c3.3,8.8,182.2-93.8,257.5-149.5C899.4,506.8,926.2,463.3,920.4,398z"/></g>
+									</svg>				
+									<span class="textoH">HUAWEI</span>
+								</a>
+								<div id="m_aside_left_offcanvas_toggle" class="iconMenu">
+									<span class="fa fa-bars"></span>
 								</div>
 							</div>
 						</div>
@@ -562,92 +538,31 @@ License: You must have a valid license purchased only from themeforest(the above
 
 				<!-- BEGIN: Left Aside -->
 				<button class="m-aside-left-close  m-aside-left-close--skin-dark " id="m_aside_left_close_btn"><i class="la la-close"></i></button>
-				<div id="m_aside_left" class="m-grid__item	m-aside-left  m-aside-left--skin-dark ">
+				<div id="m_aside_left" class="m-grid__item	m-aside-left  m-aside-left--skin-dark menu-lateral">
 
 					<!-- BEGIN: Aside Menu -->
 					<div id="m_ver_menu" class="m-aside-menu  m-aside-menu--skin-dark m-aside-menu--submenu-skin-dark " m-menu-vertical="1" m-menu-scrollable="0" m-menu-dropdown-timeout="500">
+						<div class="content-menu-lateral">
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+							<metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+							<g id="logo-huawei"><path d="M428.9,125.9c0,0-78.2-3.7-128.1,63.6c-49.9,67.4-12.4,170.3,11.2,223.3c23.7,53.1,148.5,261.3,153.1,265.9c4.6,4.6,10,2.7,10.3-1.5c0.3-4.1,14.3-302.6,3-376.2C467.2,227.5,434,134,428.9,125.9z"/><path d="M158.5,264.7c-8.9,1-73.1,67.9-78.9,133.2c-5.8,65.4,21,108.9,95.7,160.9c75.3,55.8,254.2,158.4,257.5,149.5c3.3-8.8-69.3-143.6-128.7-241.6C244.6,368.7,167.4,263.7,158.5,264.7z"/><path d="M182.6,867.7c54.1,25.3,138.5-31.5,161.8-48c21.7-17.3,61.8-49.2,61.8-49.2l-306.8,8.6C99.4,779.1,128.4,842.4,182.6,867.7z"/><path d="M190.3,608.7C135.4,580,22.4,514,18,515.3c-4.4,1.3-21.4,83.3,13.9,145.2c35.3,61.8,104.1,80.8,135.7,85.8c35.5,5.3,244.2,2.9,242.8-1.5C409.1,741,245.2,637.4,190.3,608.7z"/><path d="M699.2,189.6c-49.9-67.4-128.1-63.6-128.1-63.6c-5.1,8.1-38.4,101.6-49.6,175.2c-11.2,73.6,2.8,372.1,3.1,376.2c0.3,4.1,5.7,6.1,10.3,1.5c4.6-4.6,129.4-212.9,153.1-265.9C711.7,359.8,749.1,256.9,699.2,189.6z"/><path d="M982,515.3c-4.4-1.3-117.4,64.7-172.3,93.4C754.8,637.4,590.9,741,589.7,744.8c-1.4,4.4,207.3,6.7,242.8,1.5c31.6-5.1,100.4-24,135.7-85.8C1003.5,598.6,986.4,516.6,982,515.3z"/><path d="M655.6,819.7c23.3,16.5,107.7,73.3,161.8,48c54.1-25.3,83.2-88.6,83.2-88.6l-306.8-8.6C593.9,770.5,634,802.4,655.6,819.7z"/><path d="M920.4,398c-5.8-65.4-70-132.2-78.9-133.2c-8.9-1-86.2,104-145.6,202c-59.4,98-132,232.8-128.7,241.6c3.3,8.8,182.2-93.8,257.5-149.5C899.4,506.8,926.2,463.3,920.4,398z"/></g>
+							</svg>				
+						</div>
+						<div class="text-center"><span class="texto-menuLateral">HUAWEI</span></div>
 						<ul class="m-menu__nav ">
 							<li class="m-menu__section m-menu__section--first">
-								<h4 class="m-menu__section-text">Departments</h4>
+								<h4 class="m-menu__section-text">Eventos</h4>
 								<i class="m-menu__section-icon flaticon-more-v2"></i>
 							</li>
-							<li class="m-menu__item  m-menu__item--active" aria-haspopup="true"><a href="index.html" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Dashboard</span></a></li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-layers"></i><span
-									 class="m-menu__link-text">Resources</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__item-here"></span><span class="m-menu__link-text">Resources</span></span></li>
-										<li class="m-menu__item " aria-haspopup="true"><a href="inner.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Timesheet</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Payroll</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Contacts</span></a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-suitcase"></i><span class="m-menu__link-text">Finance</span></a></li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover" m-menu-link-redirect="1"><a href="javascript:;" class="m-menu__link m-menu__toggle"><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-graphic-1"></i><span
-									 class="m-menu__link-title"> <span class="m-menu__link-wrap"> <span class="m-menu__link-text">Support</span> <span class="m-menu__link-badge"><span class="m-badge m-badge--accent">3</span></span> </span></span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true" m-menu-link-redirect="1"><span class="m-menu__link"><span class="m-menu__item-here"></span><span class="m-menu__link-title"> <span class="m-menu__link-wrap"> <span class="m-menu__link-text">Support</span>
-														<span class="m-menu__link-badge"><span class="m-badge m-badge--accent">3</span></span> </span></span></span></li>
-										<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--line"><span></span></i><span class="m-menu__link-text">Reports</span></a></li>
-										<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover" m-menu-link-redirect="1"><a href="javascript:;" class="m-menu__link m-menu__toggle"><i class="m-menu__link-bullet m-menu__link-bullet--line"><span></span></i><span
-												 class="m-menu__link-text">Cases</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-											<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Pending</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Urgent</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Done</span></a></li>
-													<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Archive</span></a></li>
-												</ul>
-											</div>
-										</li>
-										<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--line"><span></span></i><span class="m-menu__link-text">Clients</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--line"><span></span></i><span class="m-menu__link-text">Audit</span></a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-light"></i><span class="m-menu__link-text">Administration</span></a></li>
-							<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-share"></i><span class="m-menu__link-text">Management</span></a></li>
-							<li class="m-menu__section ">
-								<h4 class="m-menu__section-text">Reports</h4>
+							<li class="m-menu__item" aria-haspopup="true"><a href="{{ url('tasks/create') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Crear Nuevo</span></a></li>	
+							<li class="m-menu__item" aria-haspopup="true"><a href="{{ url('tasks') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Calendario</span></a></li>	
+							
+							<li class="m-menu__section m-menu__section--first">
+								<h4 class="m-menu__section-text">Evaluaciones</h4>
 								<i class="m-menu__section-icon flaticon-more-v2"></i>
 							</li>
-							<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-graphic"></i><span class="m-menu__link-text">Accounting</span></a></li>
-							<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-network"></i><span class="m-menu__link-text">Products</span></a></li>
-							<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-network"></i><span class="m-menu__link-text">Sales</span></a></li>
-							<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-alert"></i><span class="m-menu__link-title"> <span
-										 class="m-menu__link-wrap"> <span class="m-menu__link-text">Bills</span> <span class="m-menu__link-badge"><span class="m-badge m-badge--danger">12</span></span> </span></span></a></li>
-							<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-technology"></i><span class="m-menu__link-text">IPO</span></a></li>
-							<li class="m-menu__section ">
-								<h4 class="m-menu__section-text">System</h4>
-								<i class="m-menu__section-icon flaticon-more-v2"></i>
-							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-clipboard"></i><span
-									 class="m-menu__link-text">Applications</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__item-here"></span><span class="m-menu__link-text">Applications</span></span></li>
-										<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Audit</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Notifications</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Messages</span></a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover"><a href="javascript:;" class="m-menu__link m-menu__toggle"><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-computer"></i><span
-									 class="m-menu__link-text">Modules</span><i class="m-menu__ver-arrow la la-angle-right"></i></a>
-								<div class="m-menu__submenu "><span class="m-menu__arrow"></span>
-									<ul class="m-menu__subnav">
-										<li class="m-menu__item  m-menu__item--parent" aria-haspopup="true"><span class="m-menu__link"><span class="m-menu__item-here"></span><span class="m-menu__link-text">Modules</span></span></li>
-										<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Logs</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Errors</span></a></li>
-										<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><i class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span class="m-menu__link-text">Configuration</span></a></li>
-									</ul>
-								</div>
-							</li>
-							<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-cogwheel"></i><span class="m-menu__link-text">Files</span></a></li>
-							<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-lifebuoy"></i><span class="m-menu__link-text">Security</span></a></li>
-							<li class="m-menu__item " aria-haspopup="true" m-menu-link-redirect="1"><a href="inner.html" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-settings"></i><span class="m-menu__link-text">Options</span></a></li>
+							<li class="m-menu__item" aria-haspopup="true"><a href="{{ url('Preguntas') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Realizar Evaluaci&oacute;n</span></a></li>	
+							<li class="m-menu__item" aria-haspopup="true"><a href="{{ url('Resultados') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Resultados</span></a></li>	
 						</ul>
 					</div>
 
