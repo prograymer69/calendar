@@ -12,6 +12,11 @@
 */
 
 //Route::group(['middleware' => ['auth']], function () {
+    
+    Route::get('/', function () {
+        return redirect('tasks');
+    });
+    
     Route::resource('tasks', 'TasksController');
     Route::post('getEvents', 'TasksController@getEvents');
     
