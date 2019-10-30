@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<!-- 
+<!--
 Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 4
 Author: KeenThemes
 Website: http://www.keenthemes.com/
@@ -71,11 +71,11 @@ License: You must have a valid license purchased only from themeforest(the above
 						<!-- BEGIN: Brand -->
 						<div class="m-stack__item m-brand  m-brand--skin-dark content-header">
 							<div class="m-stack m-stack--ver m-stack--general head">
-								<a href="index.html" class="m-brand__logo-wrapper enlace">	
+								<a href="index.html" class="m-brand__logo-wrapper enlace">
 									<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
 									<metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
 									<g id="logo-huawei"><path d="M428.9,125.9c0,0-78.2-3.7-128.1,63.6c-49.9,67.4-12.4,170.3,11.2,223.3c23.7,53.1,148.5,261.3,153.1,265.9c4.6,4.6,10,2.7,10.3-1.5c0.3-4.1,14.3-302.6,3-376.2C467.2,227.5,434,134,428.9,125.9z"/><path d="M158.5,264.7c-8.9,1-73.1,67.9-78.9,133.2c-5.8,65.4,21,108.9,95.7,160.9c75.3,55.8,254.2,158.4,257.5,149.5c3.3-8.8-69.3-143.6-128.7-241.6C244.6,368.7,167.4,263.7,158.5,264.7z"/><path d="M182.6,867.7c54.1,25.3,138.5-31.5,161.8-48c21.7-17.3,61.8-49.2,61.8-49.2l-306.8,8.6C99.4,779.1,128.4,842.4,182.6,867.7z"/><path d="M190.3,608.7C135.4,580,22.4,514,18,515.3c-4.4,1.3-21.4,83.3,13.9,145.2c35.3,61.8,104.1,80.8,135.7,85.8c35.5,5.3,244.2,2.9,242.8-1.5C409.1,741,245.2,637.4,190.3,608.7z"/><path d="M699.2,189.6c-49.9-67.4-128.1-63.6-128.1-63.6c-5.1,8.1-38.4,101.6-49.6,175.2c-11.2,73.6,2.8,372.1,3.1,376.2c0.3,4.1,5.7,6.1,10.3,1.5c4.6-4.6,129.4-212.9,153.1-265.9C711.7,359.8,749.1,256.9,699.2,189.6z"/><path d="M982,515.3c-4.4-1.3-117.4,64.7-172.3,93.4C754.8,637.4,590.9,741,589.7,744.8c-1.4,4.4,207.3,6.7,242.8,1.5c31.6-5.1,100.4-24,135.7-85.8C1003.5,598.6,986.4,516.6,982,515.3z"/><path d="M655.6,819.7c23.3,16.5,107.7,73.3,161.8,48c54.1-25.3,83.2-88.6,83.2-88.6l-306.8-8.6C593.9,770.5,634,802.4,655.6,819.7z"/><path d="M920.4,398c-5.8-65.4-70-132.2-78.9-133.2c-8.9-1-86.2,104-145.6,202c-59.4,98-132,232.8-128.7,241.6c3.3,8.8,182.2-93.8,257.5-149.5C899.4,506.8,926.2,463.3,920.4,398z"/></g>
-									</svg>				
+									</svg>
 									<span class="textoH">HUAWEI</span>
 								</a>
 								<div id="m_aside_left_offcanvas_toggle" class="iconMenu">
@@ -532,7 +532,7 @@ License: You must have a valid license purchased only from themeforest(the above
 			</header>
 
 			<!-- END: Header -->
-            
+
 			<!-- begin::Body -->
 			<div class="m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body">
 
@@ -546,31 +546,33 @@ License: You must have a valid license purchased only from themeforest(the above
 							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
 							<metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
 							<g id="logo-huawei"><path d="M428.9,125.9c0,0-78.2-3.7-128.1,63.6c-49.9,67.4-12.4,170.3,11.2,223.3c23.7,53.1,148.5,261.3,153.1,265.9c4.6,4.6,10,2.7,10.3-1.5c0.3-4.1,14.3-302.6,3-376.2C467.2,227.5,434,134,428.9,125.9z"/><path d="M158.5,264.7c-8.9,1-73.1,67.9-78.9,133.2c-5.8,65.4,21,108.9,95.7,160.9c75.3,55.8,254.2,158.4,257.5,149.5c3.3-8.8-69.3-143.6-128.7-241.6C244.6,368.7,167.4,263.7,158.5,264.7z"/><path d="M182.6,867.7c54.1,25.3,138.5-31.5,161.8-48c21.7-17.3,61.8-49.2,61.8-49.2l-306.8,8.6C99.4,779.1,128.4,842.4,182.6,867.7z"/><path d="M190.3,608.7C135.4,580,22.4,514,18,515.3c-4.4,1.3-21.4,83.3,13.9,145.2c35.3,61.8,104.1,80.8,135.7,85.8c35.5,5.3,244.2,2.9,242.8-1.5C409.1,741,245.2,637.4,190.3,608.7z"/><path d="M699.2,189.6c-49.9-67.4-128.1-63.6-128.1-63.6c-5.1,8.1-38.4,101.6-49.6,175.2c-11.2,73.6,2.8,372.1,3.1,376.2c0.3,4.1,5.7,6.1,10.3,1.5c4.6-4.6,129.4-212.9,153.1-265.9C711.7,359.8,749.1,256.9,699.2,189.6z"/><path d="M982,515.3c-4.4-1.3-117.4,64.7-172.3,93.4C754.8,637.4,590.9,741,589.7,744.8c-1.4,4.4,207.3,6.7,242.8,1.5c31.6-5.1,100.4-24,135.7-85.8C1003.5,598.6,986.4,516.6,982,515.3z"/><path d="M655.6,819.7c23.3,16.5,107.7,73.3,161.8,48c54.1-25.3,83.2-88.6,83.2-88.6l-306.8-8.6C593.9,770.5,634,802.4,655.6,819.7z"/><path d="M920.4,398c-5.8-65.4-70-132.2-78.9-133.2c-8.9-1-86.2,104-145.6,202c-59.4,98-132,232.8-128.7,241.6c3.3,8.8,182.2-93.8,257.5-149.5C899.4,506.8,926.2,463.3,920.4,398z"/></g>
-							</svg>				
+							</svg>
 						</div>
 						<div class="text-center"><span class="texto-menuLateral">HUAWEI</span></div>
 						<ul class="m-menu__nav ">
+                                <li class="m-menu__item" aria-haspopup="true"><a href="{{ url('HojaVida') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Hoja de vida</span></a></li>
+                                <li class="m-menu__item" aria-haspopup="true"><a href="{{ url('LogrosVenta') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Logros en venta</span></a></li>
 							<li class="m-menu__section m-menu__section--first">
 								<h4 class="m-menu__section-text">Eventos</h4>
 								<i class="m-menu__section-icon flaticon-more-v2"></i>
 							</li>
-							<li class="m-menu__item" aria-haspopup="true"><a href="{{ url('tasks/create') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Crear Nuevo</span></a></li>	
-							<li class="m-menu__item" aria-haspopup="true"><a href="{{ url('tasks') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Calendario</span></a></li>	
-							
+							<li class="m-menu__item" aria-haspopup="true"><a href="{{ url('tasks/create') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Crear Nuevo</span></a></li>
+							<li class="m-menu__item" aria-haspopup="true"><a href="{{ url('tasks') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Calendario</span></a></li>
+
 							<li class="m-menu__section m-menu__section--first">
 								<h4 class="m-menu__section-text">Evaluaciones</h4>
 								<i class="m-menu__section-icon flaticon-more-v2"></i>
 							</li>
-							<li class="m-menu__item" aria-haspopup="true"><a href="{{ url('Preguntas') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Realizar Evaluaci&oacute;n</span></a></li>	
-							<li class="m-menu__item" aria-haspopup="true"><a href="{{ url('Resultados') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Resultados</span></a></li>	
-						    
+							<li class="m-menu__item" aria-haspopup="true"><a href="{{ url('Preguntas') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Realizar Evaluaci&oacute;n</span></a></li>
+							<li class="m-menu__item" aria-haspopup="true"><a href="{{ url('Resultados') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Resultados</span></a></li>
+
 						    <li class="m-menu__section m-menu__section--first">
 								<h4 class="m-menu__section-text">Reportes</h4>
 								<i class="m-menu__section-icon flaticon-more-v2"></i>
 							</li>
-							<li class="m-menu__item" aria-haspopup="true"><a href="{{ url('Reportes/Cedula') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">C&eacute;dula</span></a></li>	
-							<li class="m-menu__item" aria-haspopup="true"><a href="#?" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Zona</span></a></li>	
-							<li class="m-menu__item" aria-haspopup="true"><a href="#?" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Ciudad</span></a></li>	
+							<li class="m-menu__item" aria-haspopup="true"><a href="{{ url('Reportes/Cedula') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">C&eacute;dula</span></a></li>
+							<li class="m-menu__item" aria-haspopup="true"><a href="#?" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Zona</span></a></li>
+							<li class="m-menu__item" aria-haspopup="true"><a href="#?" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Ciudad</span></a></li>
 						</ul>
 					</div>
 
@@ -587,7 +589,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
 			<!-- end:: Body -->
 
-			
+
 
 			<!-- end::Footer -->
 		</div>
@@ -1057,7 +1059,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
 		<!-- end::Scroll Top -->
 
-		
+
 
 		<!-- begin::Quick Nav -->
 

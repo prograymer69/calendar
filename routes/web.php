@@ -12,19 +12,27 @@
 */
 
 //Route::group(['middleware' => ['auth']], function () {
-    
+
     Route::get('/', function () {
         return redirect('tasks');
     });
-    
+
     Route::resource('tasks', 'TasksController');
     Route::post('getEvents', 'TasksController@getEvents');
-    
+
     Route::get('Preguntas', 'PreguntasController@preguntas');
     Route::get('Resultados', 'PreguntasController@resultados');
     Route::get('Reportes/Cedula', function(){
         return view("reportes.index");
     });
+
+    Route::get('HojaVida', function () {
+        return view('hoja_vida.index');
+    });
+    Route::get('LogrosVenta', function () {
+        return view('logros_venta.index');
+    });
+
 //});
 
 Auth::routes();
