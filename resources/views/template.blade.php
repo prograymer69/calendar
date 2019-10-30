@@ -563,6 +563,14 @@ License: You must have a valid license purchased only from themeforest(the above
 							</li>
 							<li class="m-menu__item" aria-haspopup="true"><a href="{{ url('Preguntas') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Realizar Evaluaci&oacute;n</span></a></li>	
 							<li class="m-menu__item" aria-haspopup="true"><a href="{{ url('Resultados') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Resultados</span></a></li>	
+						    
+						    <li class="m-menu__section m-menu__section--first">
+								<h4 class="m-menu__section-text">Reportes</h4>
+								<i class="m-menu__section-icon flaticon-more-v2"></i>
+							</li>
+							<li class="m-menu__item" aria-haspopup="true"><a href="{{ url('Reportes/Cedula') }}" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">C&eacute;dula</span></a></li>	
+							<li class="m-menu__item" aria-haspopup="true"><a href="#?" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Zona</span></a></li>	
+							<li class="m-menu__item" aria-haspopup="true"><a href="#?" class="m-menu__link "><span class="m-menu__item-here"></span><i class="m-menu__link-icon flaticon-line-graph"></i><span class="m-menu__link-text">Ciudad</span></a></li>	
 						</ul>
 					</div>
 

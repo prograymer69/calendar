@@ -22,6 +22,9 @@
     
     Route::get('Preguntas', 'PreguntasController@preguntas');
     Route::get('Resultados', 'PreguntasController@resultados');
+    Route::get('Reportes/Cedula', function(){
+        return view("reportes.index");
+    });
 //});
 
 Auth::routes();
