@@ -1,0 +1,2 @@
+[30-Oct-2019 05:03:18 UTC] PHP Fatal error:  Trait 'Carbon\Traits\Mixin' not found in /home/siswork/public_html/huawei/vendor/nesbot/carbon/src/Carbon/Traits/Macro.php on line 33
+[30-Oct-2019 05:04:54 UTC] PHP Fatal error:  Trait 'Carbon\Traits\Mixin' not found in /home/siswork/public_html/huawei/vendor/nesbot/carbon/src/Carbon/Traits/Macro.php on line 33
